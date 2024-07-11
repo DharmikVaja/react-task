@@ -40,19 +40,7 @@ const Practice = () => {
           return <li key={item}>{index}</li>;
         })}
       </ul> */}
-      {/* <h1 style={{ color: color }}> My fav color is {color} !</h1>
-      <button type="button" onClick={() => setColor("blue")}>
-        Blue
-      </button>
-      <button type="button" onClick={() => setColor("green")}>
-        green
-      </button>
-      <button type="button" onClick={() => setColor("yellow")}>
-        yellow
-      </button>
-      <button type="button" onClick={() => setColor("blue")}>
-        Blue
-      </button> */}
+    
       {/* <div>
         <input
           type="text"

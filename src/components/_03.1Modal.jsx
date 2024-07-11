@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ModalContent from "./ModalContent";
+import ModalContent from "./_03.2ModalContent";
 
 function Modal() {
   const [show, setShow] = useState(false);
