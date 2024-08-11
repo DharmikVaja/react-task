@@ -4,6 +4,7 @@ const AuthForm = () => {
   const [psd, setPsd] = useState("");
   const [isPsdVisible, setIsPsdVisible] = useState(false);
   const [isRegistered, setIsRegistered] = useState(false);
+
   return (
     <>
       <div className="flex flex-row">
@@ -28,9 +29,13 @@ const AuthForm = () => {
       </div>
       <div className="flex flex-row">
         {isRegistered ? (
-          <p>Already registered? Login here</p>
+          <p>
+            Already registered? <a>Login here</a>
+          </p>
         ) : (
-          <p>Don&apos;t have an account? Register from here </p>
+          <p>
+            Don&apos;t have an account? <a>Register from here</a>{" "}
+          </p>
         )}
         <button onClick={() => setIsRegistered(!isRegistered)}>
           {isRegistered ? "Login" : "Register"}{" "}

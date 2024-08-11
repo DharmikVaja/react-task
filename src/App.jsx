@@ -29,7 +29,7 @@ function App() {
       {/* <Routing/> */}
       {/* <RandomQuote /> */}
       {/* <UploadImage/> */}
-      <AuthForm/>
+      <AuthForm />
     </>
   );
 }
